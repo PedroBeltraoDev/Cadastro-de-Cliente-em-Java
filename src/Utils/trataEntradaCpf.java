@@ -2,7 +2,7 @@ package Utils;
 
 import java.util.Scanner;
 
-public class CpfUtils {
+public class trataEntradaCpf {
     static Scanner sc = new Scanner(System.in);
 
     public static long cpfv() {

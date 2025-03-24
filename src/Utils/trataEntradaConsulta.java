@@ -3,7 +3,7 @@ package Utils;
 import Entities.Cliente;
 import java.util.Scanner;
 
-public class Consulta {
+public class trataEntradaConsulta {
     static Scanner sc = new Scanner(System.in);
 
     public static void consulta(Cliente cliente) {

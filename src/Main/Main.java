@@ -1,9 +1,9 @@
 package Main;
 
 import Entities.Cliente;
-import Utils.Consulta;
-import Utils.CpfUtils;
-import Utils.NumeroUtils;
+import Utils.trataEntradaConsulta;
+import Utils.trataEntradaCpf;
+import Utils.trataEntradaNumero;
 
 import java.util.Scanner;
 
@@ -15,11 +15,11 @@ public class Main {
         System.out.print("Digite seu nome: ");
         cliente.setNome(sc.nextLine());
 
-        cliente.setCpf(CpfUtils.cpfv());
+        cliente.setCpf(trataEntradaCpf.cpfv());
 
-        cliente.setNumero(NumeroUtils.numerov());
+        cliente.setNumero(trataEntradaNumero.numerov());
 
-        Consulta.consulta(cliente);
+        trataEntradaConsulta.consulta(cliente);
 
         sc.close();
     }

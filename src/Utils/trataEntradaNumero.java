@@ -2,7 +2,7 @@ package Utils;
 
 import java.util.Scanner;
 
-public class NumeroUtils {
+public class trataEntradaNumero {
     static Scanner sc = new Scanner(System.in);
 
     public static long numerov() {
