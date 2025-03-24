@@ -13,7 +13,24 @@ Este projeto em Java permite que um usuário cadastre seu nome, CPF e número de
 
 O projeto está organizado em pacotes para facilitar a manutenção e a legibilidade do código:
 
-📦 Projeto ┣ 📂 src ┃ ┣ 📂 Entities ┃ ┃ ┗ 📜 Cliente.java ┃ ┣ 📂 Main ┃ ┃ ┗ 📜 Main.java ┃ ┣ 📂 Utils ┃ ┃ ┣ 📜 trataEntradaCpf.java ┃ ┃ ┣ 📜 trataEntradaNumero.java ┃ ┃ ┗ 📜 trataEntradaConsulta.java
+📦 Projeto 
+┣ 📂 src 
+┃ 
+┣ 📂 Entities 
+┃ 
+┃ ┗ 📜 Cliente.java 
+┃ 
+┣ 📂 Main 
+┃ 
+┃ ┗ 📜 Main.java 
+┃ 
+┣ 📂 Utils 
+┃ 
+┃ ┣ 📜 trataEntradaCpf.java 
+┃ 
+┃ ┣ 📜 trataEntradaNumero.java 
+┃ 
+┃ ┗ 📜 trataEntradaConsulta.java
 
 
 ## 🛠 Tecnologias Utilizadas
