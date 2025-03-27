@@ -1,6 +1,6 @@
-package Utils;
+package utils;
 
-import Entities.Cliente;
+import entities.Cliente;
 import java.util.Scanner;
 
 public class trataEntradaConsulta {

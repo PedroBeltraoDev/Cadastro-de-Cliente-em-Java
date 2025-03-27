@@ -8,7 +8,7 @@ Este é um programa simples em Java que permite cadastrar um cliente, validando 
 - Opção para sair do programa.  
 
 ## 🛠 Estrutura do Código  
-- **`Main.java`**: Gerencia a entrada de dados e exibição das informações.  
+- **`main.java`**: Gerencia a entrada de dados e exibição das informações.  
 - **`Cliente.java`**: Classe que representa um cliente com atributos e métodos `getters` e `setters`.  
 
 ## ▶ Como Executar  

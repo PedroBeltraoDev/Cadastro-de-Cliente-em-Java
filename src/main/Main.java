@@ -1,9 +1,9 @@
-package Main;
+package main;
 
-import Entities.Cliente;
-import Utils.trataEntradaConsulta;
-import Utils.trataEntradaCpf;
-import Utils.trataEntradaNumero;
+import entities.Cliente;
+import utils.trataEntradaConsulta;
+import utils.trataEntradaCpf;
+import utils.trataEntradaNumero;
 
 import java.util.Scanner;
 
