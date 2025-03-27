@@ -1,18 +1,59 @@
-# Cadastro de Cliente em Java  
+# Projeto: Cadastro e Consulta de Cliente
 
-Este é um programa simples em Java que permite cadastrar um cliente, validando CPF e número de telefone. Após o cadastro, o usuário pode visualizar as informações ou sair do programa.  
+Este projeto em Java permite que um usuário cadastre seu nome, CPF e número de telefone, armazenando essas informações em um objeto da classe `Cliente`. Além disso, o sistema permite a consulta dos dados cadastrados antes de encerrar a execução.
 
-## 📌 Funcionalidades  
-- Entrada e validação de CPF (11 dígitos) e número de telefone (9 dígitos).  
-- Exibição dos dados cadastrados.  
-- Opção para sair do programa.  
+## 📌 Funcionalidades
 
-## 🛠 Estrutura do Código  
-- **`main.java`**: Gerencia a entrada de dados e exibição das informações.  
-- **`Cliente.java`**: Classe que representa um cliente com atributos e métodos `getters` e `setters`.  
+- Solicitação do nome do usuário.
+- Validação e cadastro do CPF (deve conter exatamente 11 dígitos numéricos).
+- Validação e cadastro do número de telefone (deve conter exatamente 9 dígitos numéricos).
+- Consulta dos dados cadastrados antes da finalização do programa.
 
-## ▶ Como Executar  
-1. Clone o repositório:  
-   ```bash
+## 📂 Estrutura do Projeto
+
+O projeto está organizado em pacotes para facilitar a manutenção e a legibilidade do código:
+
+📦 Projeto 
+┣ 📂 src 
+┃ 
+┣ 📂 Entities 
+┃ 
+┃ ┗ 📜 Cliente.java 
+┃ 
+┣ 📂 Main 
+┃ 
+┃ ┗ 📜 Main.java 
+┃ 
+┣ 📂 Utils 
+┃ 
+┃ ┣ 📜 trataEntradaCpf.java 
+┃ 
+┃ ┣ 📜 trataEntradaNumero.java 
+┃ 
+┃ ┗ 📜 trataEntradaConsulta.java
+
+
+## 🛠 Tecnologias Utilizadas
+
+- **Java 8+**
+- **Scanner** (para entrada de dados do usuário)
+- **Regex** (para validação do CPF e número de telefone)
+
+## 🚀 Como Executar
+
+1. **Clone o repositório:**
+
+   ```sh
    git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+
+    Navegue até o diretório do projeto:
+
+cd seu-repositorio
+
+Compile os arquivos Java:
+
+javac -d bin src/**/*.java
+
+Execute o programa:
+
+java -cp bin Main.Main
